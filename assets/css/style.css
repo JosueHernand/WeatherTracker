@@ -55,6 +55,11 @@ header h1 {
     height: 200px;
 }
 
+.presentcontainer h2 {
+    margin-top: -5px;
+    font-size: 21px;
+}
+
 .futurecast {
     padding: 20px;
     border: 3px solid black;
