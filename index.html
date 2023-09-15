@@ -13,16 +13,22 @@
     </header>
 
     <main>
-        <div class="city">Search for a City:</div>
-        <div class="search-container">
+        <form class="search-container" id="searchForm">
+            <div class="city">Search for a City:</div>
             <input type="text" id="cityinput" placeholder="Enter city name">
-            <button id="searchButton">Search</button>
-        </div>
+            <button id="searchButton" type="click">Search</button>
+        </form>
     </main>
 
     <div class="presentcontainer"></div>
 
+    <div class="futurecast">5-Day Forcast:</div>
 
-    <link rel="stylesheet" href="./assets/js/script.js">
+    <div class="history">
+        <h2>Search History:</h2>
+        <ul id="historylist"></ul>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

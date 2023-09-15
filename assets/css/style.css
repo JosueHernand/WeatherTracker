@@ -46,11 +46,47 @@ header h1 {
 }
 
 .presentcontainer {
-    padding: 50px;
+    padding: 20px;
     border: 3px solid black;
     border-radius: 6px;
     margin-top: -110px;
-    width: 58%;
-    margin-left: 500px;
+    width: 62%;
+    margin-left: 400px;
     height: 200px;
+}
+
+.futurecast {
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 6px;
+    margin-top: 10px;
+    width: 62%;
+    margin-left: 400px;
+    height: 290px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.history {
+    margin-top: -31%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 300px;
+}
+
+.history h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#historylist {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 0;
+}
+
+#historylist ul {
+    margin-bottom: 5px;
 }
