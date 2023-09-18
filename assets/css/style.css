@@ -6,7 +6,7 @@ body {
 
 header {
     padding: 7px;
-    background-color: #3498db;
+    background-color: rgba(45,34,115,255);
     display: flex;
     justify-content: center;
 }
@@ -39,10 +39,15 @@ header h1 {
     width: 330px;
     padding: 9px;
     border-radius: 6px;
-    background-color: rgb(186, 186, 250);
+    background-color: rgba(105,145,227,255);
     font-weight: bold;
     font-size: 17px;
-    color: gray;
+    color: rgba(213,217,225,255);
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: rgba(85, 125, 207, 255);
 }
 
 .presentcontainer {
@@ -55,27 +60,26 @@ header h1 {
     height: 200px;
 }
 
-.presentcontainer h2 {
-    margin-top: -5px;
-    font-size: 21px;
-}
-
 .futurecast {
     padding: 20px;
-    border: 3px solid black;
     border-radius: 6px;
     margin-top: 10px;
-    width: 62%;
-    margin-left: 400px;
+    width: 70%;
+    margin-left: 370px;
     height: 290px;
     font-size: 19px;
     font-weight: bold;
 }
 
+.futurecast h2 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
 .history {
     margin-top: -31%;
     padding: 10px;
-    border: 1px solid #ddd;
     border-radius: 6px;
     width: 300px;
 }
@@ -94,4 +98,30 @@ header h1 {
 
 #historylist ul {
     margin-bottom: 5px;
+}
+
+.forecast-box {
+    display: inline-block;
+    width: calc(17% - 20px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(50,61,79,255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.history-box {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.history-box:hover {
+    background-color: rgb(220, 219, 219)
 }
